@@ -1,0 +1,326 @@
+@font-face 
+{
+    font-family: 'roboto';
+    src: url(CSS/Roboto/);
+}
+
+body 
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+
+    
+
+
+.html{
+    height: 100%;
+}
+
+
+.body
+{
+    width: 100%;
+    min-height:100%;
+    margin:0;
+    font-family: Roboto, sans-serif;
+    font-size 16px;
+}
+
+
+.header
+
+{
+    height: 30%;
+    width:100%;
+}
+
+
+
+
+#sizelogo
+{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+
+
+
+.borderlocalisation {
+    background-color: #eaeaea;
+    height: 50px;
+}
+
+.icone
+{
+    margin-top: 4%;
+    margin-right: 4%;
+}
+.location{
+    margin-top: 4%;
+    font-weight: 500;
+}
+
+.main
+{
+    width: 100%;
+}
+.alignitem1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bordertext{
+    background-color: whitesmoke;
+    width:100%;
+    height: 250px;
+    
+   
+}
+
+
+
+
+.alignitem2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.button{
+    background: linear-gradient( to right,#9356DC,#FF79DA ) ;
+    color:white;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    width: 65%;
+    height: 45px;
+    margin-top: 12%;
+    box-shadow: 1px 1px 3px lightgrey;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+/* bloc 2 FONCTIONNEMENT*/
+
+.bloc2
+{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.sousbloc2
+
+{
+    width:90%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.margintitle{
+    margin-left: 5%;
+    
+}
+
+
+
+.borderimagetext
+{
+
+background-color:whitesmoke;
+border-radius: 18px 18px 18px 18px;
+width: 95%;
+height: 50%;
+margin-left: 3%;
+
+display: flex;
+justify-content: space-around;
+font-weight: 600;
+box-shadow: 4px 4px 2px lightgrey;
+
+
+
+}
+
+
+.margintop{
+    margin-top: 9%;
+}
+
+.marginleft{
+    margin-left: -20%;
+}
+
+.ordernumber{
+    background: #9356dc;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.5rem;
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*BLOC 3 LISTE DES RESTAURANTS */
+
+
+
+
+
+.bloc3
+
+{
+    width: 100%;
+   
+    background-color:whitesmoke ;
+    
+}
+
+.sousbloc3{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+
+
+
+.borderphoto
+
+{
+    
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    width: 93%;
+    
+    
+    min-width: 2.3rem;
+    border-radius: 4%;
+    box-shadow: 2px 2px 2px lightgrey; 
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    
+    
+}
+
+.alignphototext
+{
+display: flex;
+flex-direction: column;
+
+}
+
+.promo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 90px;
+    padding: 15px;
+    color: #0c6b50;
+    background: #99E2D0;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.imagerestaurant{
+    
+    object-fit: cover;
+  
+    
+}
+
+.cardfooter
+{
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    text-align: start;
+    text-decoration: none;
+}
+
+.aligntext{
+    display: flex;
+    justify-content: row;
+}
+
+.policesize1
+{
+    font-weight: 600;
+    color: black;
+    margin-top: 4%;
+    
+}
+
+.policesize2{
+    color: black;
+}
+
+
+
+
+
+/*BLOC 4 FOOTER */
+
+.borderfooter{
+
+    background-color: #353535;
+    left:0;
+    color:white;
+    height: 170px;
+    
+   
+
+}
+
+.stylelink{
+    color: white;
+    
+}
+
+.policestyle{
+    list-style: none;
+   
+}
+
+
+.stylelogo{
+    font-family: "Shrikhand", cursive;
+    font-style: italic;
+    color: white;
+    font-weight: 700;
+    margin-left: 2rem;
+    padding-top:3%;
+}
+
+
+ 
