@@ -200,6 +200,7 @@ box-shadow: 4px 4px 2px lightgrey;
     width: 100%;
    
     background-color:whitesmoke ;
+    margin-bottom: -5%;
     
 }
 
@@ -217,9 +218,7 @@ box-shadow: 4px 4px 2px lightgrey;
     display: flex;
     align-items: center;
     border-radius: 2rem;
-    width: 93%;
-    
-    
+    width: 93%; 
     min-width: 2.3rem;
     border-radius: 4%;
     box-shadow: 2px 2px 2px lightgrey; 
@@ -322,5 +321,79 @@ flex-direction: column;
     padding-top:3%;
 }
 
+
+
+@media  all and (min-width: 768px) and (max-width: 992px)
+
+{
+
+    .location
+    {
+        margin-top: 1rem;
+    }
+
+    .icone{
+        margin-top: 1rem;
+    }
+    
+    .button{
+        width:40%
+    }
+
+    .borderimagetext{
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    .ordernumber{
+        margin-left: 10rem;
+    }
+
+    
+
+    .sousbloc2{
+        margin-top:-1%;
+       
+    }
+
+    .sousbloc3{
+        margin-top: -2%;
+        margin-bottom: 4%;
+    }
+
+    h2{
+        margin-left:4%
+    }
+
+    .borderphoto{
+        width: 45%;
+        margin-left: 30%;
+    }
+
+}
+
+
+
+
+@media  all and (min-width: 992px) 
+
+{
+
+
+    .location
+    {
+        margin-top:0.5rem
+    }
+
+    .icone{
+        margin-top: 0.5rem;
+    }
+    
+    .button{
+        width:40%
+    }
+
+  
+}
 
  
