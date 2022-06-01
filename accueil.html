@@ -17,7 +17,9 @@
 
 <body>
 
-    <header class="header"> 
+   
+
+    <header> 
         
             <div class="bloclogo"> <img id="sizelogo" src="logo/ohmyfood.png" alt="logoohmyfood"> </div> <br>
             
@@ -43,7 +45,7 @@
         <div class="alignitem2">
             <h1> Réservez le menu qui vous convient</h1>
             <div class="police2"> Découvrez les restaurants d'exception, selectionnés par nos soins.</div>
-            <a href="#" style="text-decoration:none" class="button"> <p class="fontcolor"> Explorer nos restaurants </p> </a></div>
+            <button aria-pressed="false" class="button" title="Trouvez des restaurants sur la carte">Explorez nos restaurants</button>
         </div>
         
         
@@ -55,37 +57,44 @@
 
         <h2>Fonctionnement</h2> 
 
-        <div class="margintitle"></div>
-
-
-        <div class="sousbloc2">
-            <div class=" borderimagetext">
-                <div class="margintop"> <i class="icone2 fa-solid fa-mobile-screen"></i> </div>
-                <div class="margintop marginleft"> Choisissez un restaurant </div>
-                <div class="margintop ordernumber"> 1</div>
-            </div>
-            <br>
         
 
 
         
+            <div class="sousbloc2">
+
+                <a class="linkcard" href="#" style="text-decoration: none">
+                    <div class=" borderimagetext">
+                        <div class="margintop"> <i class="icone2 fa-solid fa-mobile-screen"></i> </div>
+                        <div class="margintop marginleft"> Choisissez un restaurant </div>
+                        <div class="margintop ordernumber"> 1</div>
+                    </div>
+                    <br>
+                 </a>  
+        
+
+
+        
+        <a class="linkcard" href="#" style="text-decoration: none">
             <div class="borderimagetext">
                 <div class="margintop"> <i class="icone3 fa-solid fa-list"></i></div>
                 <div class="margintop marginleft">Composez votre menu</div>
                 <div class="margintop ordernumber">2 </div>
              </div>
              <br>
+        </a>
 
-
-        
+        <a class="linkcard" href="#" style="text-decoration: none">
             <div class="borderimagetext">
                 <div class="margintop"> <i class="icone4 fa-solid fa-store"></i> </div>
                 <div class="margintop marginleft">Dégustez au restaurant</div>
                 <div class="margintop ordernumber">3</div>
             </div>
-       
+        </a>
         </div>
 
+        <br>
+        <br>
 
     </section>
 
@@ -93,13 +102,14 @@
 
     <section class="bloc3">
 
+        <br>
   
-        <div class="margintitle"><h2> Restaurants</h2> </div>
+        <h2> Restaurants</h2>
 
         <div class="sousbloc3">
 
             <a href="#" style="text-decoration:none" class="borderphoto alignphototext">  
-                <div class="imagerestaurant"> <img src="restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" height="160" width="325" alt="photorestaurant1"></i></div>
+                <div> <img class="imagerestaurant" src="restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" height="160" width="325" alt="photorestaurant1"></div>
                 <span class="promo"> Nouveau </span>
                 <div class="cardfooter"> 
 
@@ -108,7 +118,7 @@
                         <div class="policesize2 textalign">Ménilmontant</div>
                     </div>
 
-                    <div>
+                    <div class="heartposition">
                         <span class="far fa-heart unchecked"></span>
                         <span class="fas fa-heart checked" ></span>
                     </div>
@@ -118,7 +128,7 @@
 
 
             <a href="#" style="text-decoration:none" class="borderphoto alignphototext">  
-                <div class="imagerestaurant"> <img src="restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" height="160" width="325" alt="photorestaurant2"></i></div>
+                <div><img class="imagerestaurant" src="restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" height="160" width="325" alt="photorestaurant2"></div>
                 <span class="promo"> Nouveau </span>
                 <div class="cardfooter">
 
@@ -127,7 +137,7 @@
                         <div class="policesize2 textalign">Charonne</div>
                     </div>
 
-                    <div> 
+                    <div class="heartposition"> 
                         <span class="far fa-heart unchecked" ></span>
                         <span class="fas fa-heart checked" ></span>
                     </div>
@@ -138,14 +148,14 @@
 
             <a href="#" style="text-decoration:none" class="borderphoto alignphototext">  
                 
-                <div class="imagerestaurant"> <img src="restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" height="160" width="325" alt="imagerestaurant3"> </i> </div>
+                <div> <img class="imagerestaurant" src="restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" height="160" width="325" alt="imagerestaurant3"></div>
                 <div class="cardfooter">
                     <div>
                         <div class="policesize1 textalign">À la française</div>
                         <div class="policesize2 textalign">Cité Rouge</div>
                     </div>
 
-                    <div>
+                    <div class="heartposition">
                         <span class="far fa-heart unchecked"></span>
                         <span class="fas fa-heart checked" ></span>
                     </div>
@@ -156,7 +166,7 @@
 
             <a href="#" style="text-decoration:none" class="borderphoto alignphototext"> 
                 
-                 <div class="imagerestaurant"> <img src="restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" height="160" width="325" alt="imagerestaurant4"> </i> </div>
+                 <div> <img class="imagerestaurant" src="restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" height="160" width="325" alt="imagerestaurant4"> </div>
                  
                  <div class="cardfooter">
                     
@@ -165,7 +175,7 @@
                         <div class="policesize2 textalign">Folie-Méricourt</div>
                     </div>
 
-                    <div> 
+                    <div class="heartposition"> 
                         <span class="far fa-heart unchecked"></span>
                         <span class="fas fa-heart checked"> </span>
                     </div>
@@ -200,7 +210,7 @@
 
     
             <li><a class= "stylelink" href="#" style="text-decoration: none">Mentions légales</a></li>
-            <li> <a  class= "stylelink" href="#" style="text-decoration: none">Contact </li>
+            <li> <a  class= "stylelink" href="mailto:contact@ohmyfood.fr" style="text-decoration: none">Contact </li>
 
         </ul>
 

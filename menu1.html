@@ -20,7 +20,7 @@
 <body>
 
     <header>
-        <div class="logoposition"> <span class="icon fas fa-arrow-left"> </span> </div>
+        <a href="accueil.html"><div class="logoposition"> <span class="icon fas fa-arrow-left"> </span> </div> </a>
          <div class="bloclogo"> <img id="sizelogo" src="logo/ohmyfood.png" alt="logoohmyfood"> </div> <br> 
     </header> 
 
@@ -28,7 +28,7 @@
         <main>  
 
             <!--photo-->
-            <img id="photorestaurant" src="restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" width="365" height="240">
+            <img class="photorestaurant" src="restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" width="365" height="240"alt="photorestaurant1">
 
             <!--carte-->
 
@@ -139,7 +139,7 @@
                     <p class="policesize2"> Myrtilles et pâte d'amande</p>
                     <p class="policesize"> 23€</p>
                 </div>
-                <br>
+        
             </div>
         </a>
         <br>
@@ -147,7 +147,9 @@
 
         <!--BUTTON-->
 
-        <a href="#" style="text-decoration:none"> <div  class="button" > COMMANDER  </a ></div>
+        
+
+        <button aria-pressed="false" class="button" title="commander">COMMANDER</button>
              <br>
             
              <br>
@@ -176,7 +178,7 @@
         
             
                     <li><a class= "stylelink" href="#" style="text-decoration: none">Mentions légales</a></li>
-                    <li> <a  class= "stylelink" href="#" style="text-decoration: none">Contact </li>
+                    <li> <a  class= "stylelink" href="mailto:contact@ohmyfood.fr" style="text-decoration: none">Contact </a></li>
                         
         
                 </ul>
