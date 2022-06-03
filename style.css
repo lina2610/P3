@@ -27,7 +27,7 @@ body
     min-height:100%;
     margin:0;
     font-family: Roboto, sans-serif;
-    font-size 16px;
+    font-size: 16px;
 }
 
 
@@ -100,6 +100,7 @@ body
 
 .button{
     background: linear-gradient( to right,#9356DC,#FF79DA ) ;
+    border:none;
     color:white;
     font-weight: 400;
     text-align: center;
@@ -109,14 +110,14 @@ body
     margin-top: 12%;
     box-shadow: 1px 1px 3px lightgrey;
     cursor:pointer;
-    transition: opacity 2s;
+    transition: color 2s;
     
 
     
 }
 
 .button:hover{ 
-    background: #ffffff ;
+    background: rgb(238, 189, 225) ;
    
    
 }
@@ -156,28 +157,29 @@ h2{
 {
 
 background-color:whitesmoke;
+color: black;
 border-radius: 18px 18px 18px 18px;
 width: 95%;
 height: 60px;
 margin-left: 3%;
-
 display: flex;
 justify-content: space-around;
 font-weight: 600;
 box-shadow: 4px 4px 2px lightgrey;
-
-
+cursor: pointer;
+align-items: center;
 
 }
 
-
-.margintop{
-    margin-top: 7%;
+.linkcard :hover{
+    background: #f4f1f9 ;
 }
 
-.marginleft{
-    margin-left: -20%;
+.linkcard :hover .fa-solid{
+    color: #9356DC;
 }
+
+
 
 .ordernumber{
     background: #9356dc;
@@ -186,8 +188,8 @@ box-shadow: 4px 4px 2px lightgrey;
     height: 1.5rem;
     border-radius: 50%;
     position: absolute;
-    left: 1.5rem;
-    margin-top: 1.2rem;
+    left: 1.7rem;
+    margin-top: 0.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,6 +238,8 @@ flex-direction: column;
 
 }
 
+
+
 .promo{
     position: absolute;
     top: 20px;
@@ -251,8 +255,38 @@ flex-direction: column;
 
 .heartposition{
     position: absolute;
+    margin-top: 2%;
     margin-left: 80%;
+    color: black;
 }
+
+
+.custom-checkbox input[type="checkbox"],
+.custom-checkbox .checked {
+display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .checked
+{
+display: inline-block;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .unchecked
+{
+display: none;
+}
+
+.far{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.fas
+{
+    font-size: 20px;
+    color: #FF79DA;
+}
+
 
 .imagerestaurant {
     
@@ -290,19 +324,22 @@ flex-direction: column;
 }
 
 
+
+
+
 /*BLOC 4 FOOTER */
 
 .borderfooter{
 
     background-color: #353535;
-    left:0;
     color:white;
-    height: 170px; 
-
+    
 }
 
 .stylelink{
     color: white;
+    line-height: 25px;
+    font-weight: 400;
     
 }
 
@@ -316,12 +353,72 @@ flex-direction: column;
     font-family: "Shrikhand", cursive;
     font-style: italic;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 2rem;
     padding-top:3%;
 }
 
 
+/*  ANIMATION - loader  */
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .loader-side {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 200px auto;
+    border-radius: 60px;
+    border-top: 4px solid #9356DC;
+    border-right: 4px solid rgba(91, 25, 93, 0.4);
+    border-bottom: 4px solid #9356DC;
+    border-left: 4px solid rgba(91, 25, 93, 0.4);
+    animation-name: spin;
+    -webkit-animation-name: spin;
+    animation-duration: 1200ms;
+    -webkit-animation-duration: 1200ms;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: 2;
+    -webkit-animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      overflow: hidden;
+    }
+    100% {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      visibility: hidden;
+    }
+  }
+
+  /*  ANIMATION - Page blanche Loader */
+
+  .LoaderStart {
+    animation: WhitePage 10s;
+  }
+  
+  @keyframes WhitePage {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 @media  all and (min-width: 768px) and (max-width: 992px)
 
@@ -352,8 +449,11 @@ flex-direction: column;
         
     }
 
+ 
+
     .ordernumber{
         margin-left: 1.5rem;
+        
     }
 
     .sousbloc2{
@@ -416,12 +516,16 @@ flex-direction: column;
         display: flex;
         
     }
+
+    
   
     .borderimagetext{
         width: 40%;
         margin-left: 30%;
        
     }
+
+    
 
     .ordernumber{
         margin-left: 24rem;
@@ -431,9 +535,7 @@ flex-direction: column;
         margin-left: 15%;
         margin-top: 5%;
         width:100%
-       
     
-       
     }
 
  
