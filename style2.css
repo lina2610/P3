@@ -65,10 +65,10 @@ html{
     width:100%;
     border-radius: 40px 40px 0px 0px;
     margin-bottom: -7%;
-    
-    
   
 }
+
+
 
 .styletitre{
     font-family: "Shrikhand", cursive;
@@ -105,69 +105,97 @@ h1{
     box-shadow: 4px 4px 2px lightgrey;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+   
     line-height: 0;
+    white-space: nowrap; 
     
-    white-space: nowrap;
-    overflow:hidden;
-  text-overflow: ellipsis;
-  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: slideup 4s forwards;
+    opacity: 0;
+    
 
  }
 
- .bordertext {
-    
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari et Chrome */
-    -o-animation: fadein 2s; /* Opera */
+
+ .delay1{
+    animation-delay: 0.2s
+ }
+
+ .delay2{
+    animation-delay: 0.4s
+ }
+
+.delay3{
+    animation-delay: 0.6s
 }
-@keyframes fadein {
+
+.delay4{
+    animation-delay: 0.8s
+}
+
+.delay5{
+
+    animation-delay: 1s
+}
+
+.delay6{
+    animation-delay: 1.2s
+
+}
+
+.delay7{
+    animation-delay: 1.4s
+
+}
+
+.delay8{
+
+    animation-delay: 1.6s
+}
+
+.delay9{
+    animation-delay: 1.8s
+
+}
+
+
+
+  @keyframes slideup {
     from {
-        opacity:0;
+      transform: translatey(20px);
+      opacity: 0%;
     }
     to {
-        opacity:1;
+      transform: translatey(0px);
+      opacity: 100%;
     }
+  }
 
-}
- 
+  
 
-.alignprice{
-    display: flex;
-    justify-content: space-between;
-    margin-top: -5%;
-    
-}
-
-.aligntext{
-    display:flex;
-    justify-content:space-between;
-}
 
 .aligntext1{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-left:2%;
-    
-}
-
-.ellipse{
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding-top:2%;
     white-space: nowrap;
-    flex-grow: 1;
-
     
 }
+
+
+
+
 .alignprice1{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12%;
+    
+    margin-top: auto;
     margin-right: 5%;
+    text-overflow: ellipsis;
  }
 
+ 
 
 .menutitle{
     font-weight: 300;
@@ -183,25 +211,21 @@ h1{
     font-weight: 500;
     font-size: 16px;
     color:black;
-    margin-top:8%
-
+    text-overflow: ellipsis;
+  
 }
 
-.price{
-    font-weight: 600;
-    font-size: 16px;
-    color:black;
-    margin-left: 80%;
-    margin-top: -10%;
-}
+
 
 .policesize2{
     font-weight: 300;
     color:black;
     margin-top: 2%;
    font-size: 16px;
-    
+   text-overflow: ellipsis;
+   
 }
+
 
 
 
@@ -210,24 +234,30 @@ h1{
     text-align: center;
     background: #99E2D0;
     width: 0;
-    border-radius: 0 8px 8px 0;
-    
+    border-radius: 0 8px 8px 0;  
     align-items: center;
     transition: width 1s;
-    
-    
+    display:flex;
+    justify-content: center;;
+
+
 
   }
   
   .check {
     
-    margin-top:35%;
+    line-height: 3px;
     color: #fff;
     font-size: 25px;
     transform: rotate(360deg);
     transition: transform 500ms;
     
   }
+
+  .fa-check-circle{
+    line-height:1 ;
+  }
+
   
   .bordertext:hover .box {
   width: 80px;
@@ -235,6 +265,7 @@ h1{
 
 .bordertext:hover .box > .check {
   transform: rotate(0deg);
+  
   
 }
 
@@ -406,7 +437,7 @@ li{
     }
 
     .bordertext{
-        width: 40%;
+        width: 70%;
         
     }
 
@@ -414,13 +445,14 @@ li{
         
         width: 100%;
         align-items: center;
-        margin-top:-3%
+        margin-top:-5%
         
     }
 
     .button{
         width: 40%;
-        margin-left: 40%;
+        margin-left: 30%;
+        
     }
 
     .borderfooter{
@@ -433,8 +465,11 @@ li{
 
     .stylelogo{
         padding-top: 7%;
-        margin-left: 7%;
+        margin-left: 6%;
     }
 
+    .fa-handshake-simple{
+        font-size: 10px;
+        
 
 }
