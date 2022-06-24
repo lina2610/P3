@@ -101,12 +101,10 @@ h1{
     width: 93%; 
     margin-left: 12px;
     margin-top:15px;
-    border-radius: 9px;
+    border-radius: 13px;
     box-shadow: 4px 4px 2px lightgrey;
     background-color: white;
     display: flex;
-   
-    line-height: 0;
     white-space: nowrap; 
     
     overflow: hidden;
@@ -183,7 +181,8 @@ h1{
     width: 100%;
     margin-left:2%;
     padding-top:2%;
-    white-space: nowrap;
+    
+    overflow: hidden;
     
 }
 
@@ -191,7 +190,7 @@ h1{
 
 .alignprice1{
     
-    margin-top: auto;
+    margin-top: 34px;
     margin-right: 5%;
   
     text-overflow: ellipsis;
@@ -214,6 +213,10 @@ h1{
     font-size: 16px;
     color:black;
     text-overflow: ellipsis;
+    margin-bottom:1px;
+    margin-top:3px;
+    display:inline;
+   overflow:hidden;
 }
 
 
@@ -224,6 +227,9 @@ h1{
     margin-top: 2%;
    font-size: 16px;
    text-overflow: ellipsis;
+   display:inline;
+   overflow:hidden;
+   white-space: nowrap;
    
     
     
@@ -241,6 +247,7 @@ h1{
     transition: width 1s;
     display:flex;
     justify-content: center;
+    cursor: pointer;
 
 
 
@@ -399,6 +406,10 @@ li{
     margin-left: 2%;
 }
 
+h1{
+
+    text-align: center;
+}
 
 }
 
@@ -470,6 +481,19 @@ li{
 
     .fa-handshake-simple{
         font-size: 10px;
+
+    }
+        
+    .fa-solid{
+
+       
+          padding-right: 0%;
+       }
+      
+       h1{
+
+        text-align: center;
+    }
         
 
 }

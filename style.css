@@ -169,6 +169,7 @@ font-weight: 600;
 box-shadow: 4px 4px 2px lightgrey;
 cursor: pointer;
 align-items: center;
+position: relative;
 
 }
 
@@ -189,7 +190,7 @@ align-items: center;
     height: 1.5rem;
     border-radius: 50%;
     position: absolute;
-    left: 1.7rem;
+    left: -0.5rem;
     margin-top: 0.8rem;
     display: flex;
     align-items: center;
@@ -432,9 +433,14 @@ li{
     }
   }
 
-@media  all and (min-width: 768px) and (max-width: 992px)
+@media  all and (min-width: 768px) and (max-width: 992px) and (orientation: landscape)
 
 {
+
+    .body{
+        width: 100%;
+        margin:0;
+    }
 
     .location
     {
@@ -487,6 +493,11 @@ li{
 
     }
 
+    h1{
+
+        text-align: center;
+    }
+    
     h2{
         margin-left:4%
     }
@@ -515,6 +526,15 @@ li{
 
 {
 
+    .html{
+        width: 100%;
+        margin:0;
+    }
+
+    .body{
+        width: 100%;
+        margin:0;
+    }
 
     #sizelogo
 {
@@ -559,9 +579,7 @@ li{
 
     
 
-    .ordernumber{
-        margin-left: 26rem;
-    }
+   
    
     .sousbloc3{
        
@@ -593,6 +611,12 @@ li{
         margin-left: 3rem;
         padding-top: 2%;
     }
+
+    .fa-solid{
+
+       
+        padding-right: 0;
+     }
 
 
 }
