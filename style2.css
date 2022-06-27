@@ -343,9 +343,7 @@ h1{
     
 }
 
-li{
-    margin-left: -6%;
-}
+
 
 .policestyle{
     list-style: none;
@@ -359,8 +357,8 @@ li{
     font-style: italic;
     color: white;
     font-weight: 500;
-    margin-left: 1rem;
-    padding-top:4%;
+    margin-left: 2rem;
+    padding-top:6%;
     font-size: 20px;
 }
 
@@ -390,7 +388,7 @@ li{
 }
 
 .bordertext{
-    width: 40%;
+    width: 90%;
     
     
 }
@@ -414,18 +412,16 @@ width: 100%;;
 
 
 
-.stylelogo{
-    margin-left: 3rem;
-    padding-top: 7%;
-}
 
-li{
-    margin-left: 2%;
-}
+
 
 h1{
 
     text-align: center;
+}
+
+.borderfooter{
+    width: 100%;
 }
 
 }
@@ -487,14 +483,8 @@ h1{
         width: 100%;
     }
 
-    li{
-        margin-left: 3%;
-    }
-
-    .stylelogo{
-        padding-top: 7%;
-        margin-left: 6%;
-    }
+    
+    
 
     .fa-handshake-simple{
         font-size: 10px;

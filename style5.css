@@ -264,6 +264,7 @@ h1{
     display:flex;
     justify-content: center;
     cursor: pointer;
+    -webkit-box-align: center;
 
 
 
@@ -342,9 +343,7 @@ h1{
     
 }
 
-li{
-    margin-left: -6%;
-}
+
 
 .policestyle{
     list-style: none;
@@ -377,7 +376,7 @@ li{
 }
 
 
-@media  all and (min-width: 768px) and (max-width: 992px)
+@media  all and (min-width: 768px) and (max-width: 992px)  and (orientation:landscape )
 {
 
 .bloclogo{
@@ -389,7 +388,7 @@ li{
 }
 
 .bordertext{
-    width: 40%;
+    width: 90%;
     
     
 }

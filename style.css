@@ -337,9 +337,6 @@ flex-direction: column;
     
 }
 
-li{
-    margin-left: -6%;
-}
 
 .policestyle{
     list-style: none;
@@ -353,8 +350,8 @@ li{
     font-style: italic;
     color: white;
     font-weight: 500;
-    margin-left: 1rem;
-    padding-top:4%;
+    margin-left: 2rem;
+    padding-top:6%;
     font-size: 20px;
 }
 
@@ -508,10 +505,8 @@ li{
       
     }
 
-   
-
     .stylelogo{
-        margin-left: 3rem;
+        margin-left: 5rem;
         padding-top: 7%;
     }
     
