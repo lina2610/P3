@@ -306,7 +306,7 @@ h1{
     width:50%;
     height: 60px;
     box-shadow: 1px 1px 3px lightgrey;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 10%;
     margin-bottom: 12%;
     cursor:pointer;
@@ -378,7 +378,7 @@ li{
 }
 
 
-@media  all and (min-width: 768px) and (max-width: 992px)
+@media  all and (min-width: 768px) and (max-width: 992px) and (orientation:landscape )
 {
 
 .bloclogo{

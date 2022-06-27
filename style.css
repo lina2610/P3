@@ -265,7 +265,7 @@ flex-direction: column;
 .progress-heart {
     display: block;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 0.11rem;
+    -webkit-text-stroke-width: 0.13rem;
     -webkit-text-stroke-color: #000;
     background: -webkit-linear-gradient(-150deg, #9356dc, #ff79da);
     -webkit-background-clip: text;
@@ -372,6 +372,7 @@ li{
 }
 
 
+
 /*  ANIMATION - loader  */
 .loader {
     position: absolute;
@@ -444,11 +445,11 @@ li{
 
     .location
     {
-        margin-top: 1rem;
+        margin-top: 2%;
     }
 
     .icone{
-        margin-top: 1rem;
+        margin-top: 2%;
     }
     
     .button{
@@ -497,7 +498,7 @@ li{
 
         text-align: center;
     }
-    
+
     h2{
         margin-left:4%
     }
@@ -507,14 +508,12 @@ li{
       
     }
 
-    li{
-        margin-left: 1rem;
-    }
+   
 
     .stylelogo{
         margin-left: 3rem;
+        padding-top: 7%;
     }
-
     
 
 }
@@ -603,21 +602,32 @@ li{
         height:200px
     }
    
-    li{
-        margin-left: 1rem;
-    }
-
-    .stylelogo{
-        margin-left: 3rem;
-        padding-top: 2%;
-    }
-
+  
+    
     .fa-solid{
 
        
         padding-right: 0;
      }
 
+
+     .borderfooter{
+        width: 100%;
+    }
+
+    li{
+        margin-left: 3%;
+    }
+
+    .stylelogo{
+        padding-top: 2%;
+        margin-left: 6%;
+    }
+
+    .fa-handshake-simple{
+        font-size: 10px;
+
+    }
 
 }
 
